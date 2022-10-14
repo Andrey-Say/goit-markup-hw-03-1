@@ -50,12 +50,8 @@ body {
   margin-right: 0;
 }
 
-.contacts-header .iten {
-  margin-right: 50px;
-}
-
-.contacts-header .iten:last-child {
-  margin-right: 0;
+.contacts-header .iten + .iten {
+  margin-left: 50px;
 }
 
 .logo {
