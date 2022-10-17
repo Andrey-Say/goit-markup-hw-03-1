@@ -129,7 +129,7 @@ body {
 
 .hero {
   text-align: center;
-  background-color: aqua;
+  background-color: #2f303a;
 }
 
 .hero-title {
@@ -343,7 +343,7 @@ body {
 }
 
 footer {
-  background-color: #212121;
+  background-color: #2f303a;
 }
 
 .footer-container {
