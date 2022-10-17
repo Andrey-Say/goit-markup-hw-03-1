@@ -302,7 +302,6 @@ body {
 .project-list .item {
   width: 370px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
 }
 
 .project-list .item:not(:nth-child(3n)) {
@@ -313,14 +312,21 @@ body {
   margin-bottom: 0px;
 }
 
-.foto-project {
-  margin-bottom: 20px;
+.project-foto {
+  display: block;
+}
+
+.project-list .item .text {
+  border-left: solid 1px #eeeeee;
+  border-bottom: solid 1px #eeeeee;
+  border-right: solid 1px #eeeeee;
 }
 
 .project-title {
   margin-top: 0;
   margin-bottom: 4px;
   padding-left: 24px;
+  padding-top: 20px;
 
   font-size: 18px;
   line-height: 2;
