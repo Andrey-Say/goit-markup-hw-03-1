@@ -130,6 +130,8 @@ body {
 .hero {
   text-align: center;
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -161,6 +163,10 @@ body {
   background-color: var(--accent-color);
   color: var(--white-color);
   letter-spacing: 0.06em;
+}
+
+.benefits {
+  padding-bottom: 0;
 }
 
 .benefits-list {
@@ -210,11 +216,6 @@ body {
   margin-left: 30px;
 }
 
-.team-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .team-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -239,8 +240,9 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.foto-team {
-  margin-bottom: 30px;
+.team-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .text-name {
@@ -254,7 +256,7 @@ body {
   text-align: center;
 }
 
-.team-text {
+.team-speciality {
   margin: 0;
 
   font-size: 16px;
@@ -265,7 +267,7 @@ body {
 .filter-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .filter-list .item + .item {
@@ -285,7 +287,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   background-color: #f5f4fa;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .filter-button:hover,
@@ -317,6 +318,10 @@ body {
 }
 
 .project-list .item .text {
+  padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
   border-left: solid 1px #eeeeee;
   border-bottom: solid 1px #eeeeee;
   border-right: solid 1px #eeeeee;
@@ -325,8 +330,6 @@ body {
 .project-title {
   margin-top: 0;
   margin-bottom: 4px;
-  padding-left: 24px;
-  padding-top: 20px;
 
   font-size: 18px;
   line-height: 2;
@@ -336,8 +339,6 @@ body {
 
 .project-text {
   margin: 0;
-  padding-left: 24px;
-  padding-bottom: 20px;
 
   font-size: 16px;
   line-height: 1.87;
@@ -345,9 +346,6 @@ body {
 
 footer {
   background-color: #2f303a;
-}
-
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -368,17 +366,16 @@ footer {
   font-style: normal;
 }
 
+.address-list .item + .item {
+  margin-top: 9px;
+}
+
 .footer-address {
-  margin-top: 0;
-  margin-bottom: 9px;
+  margin: 0;
 
   font-size: 14px;
   line-height: 1.7;
   color: var(--white-color);
-}
-
-.footer-email {
-  margin-bottom: 9px;
 }
 
 .footer-email,
